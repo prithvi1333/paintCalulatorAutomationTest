@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" name="ui-paintCalculator" parallel="instances" verbose="2">
+	
+	<test name="ui-paintCalculator">
+		<packages>
+			<package name="com.paint.calculator.tests" />
+		</packages>
+	</test>
+</suite>
